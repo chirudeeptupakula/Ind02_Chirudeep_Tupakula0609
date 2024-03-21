@@ -11,11 +11,11 @@
 		67DD7D912BAC9ED40032F1E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD7D902BAC9ED40032F1E8 /* SceneDelegate.swift */; };
 		67DD7D932BAC9ED40032F1E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD7D922BAC9ED40032F1E8 /* ViewController.swift */; };
 		67DD7D962BAC9ED40032F1E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 67DD7D952BAC9ED40032F1E8 /* Base */; };
-		67DD7D982BAC9ED50032F1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67DD7D972BAC9ED50032F1E8 /* Assets.xcassets */; };
 		67DD7D9B2BAC9ED50032F1E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 67DD7D9A2BAC9ED50032F1E8 /* Base */; };
 		67DD7DA62BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD7DA52BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaTests.swift */; };
 		67DD7DB02BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD7DAF2BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaUITests.swift */; };
 		67DD7DB22BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD7DB12BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaUITestsLaunchTests.swift */; };
+		67DD7DC12BACC4940032F1E8 /* PuzzleLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD7DC02BACC4940032F1E8 /* PuzzleLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		67DD7D902BAC9ED40032F1E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		67DD7D922BAC9ED40032F1E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67DD7D952BAC9ED40032F1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		67DD7D972BAC9ED50032F1E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67DD7D9A2BAC9ED50032F1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67DD7D9C2BAC9ED50032F1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67DD7DA12BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind02_Chirudeep_TupakulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		67DD7DAB2BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind02_Chirudeep_TupakulaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DD7DAF2BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind02_Chirudeep_TupakulaUITests.swift; sourceTree = "<group>"; };
 		67DD7DB12BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind02_Chirudeep_TupakulaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67DD7DC02BACC4940032F1E8 /* PuzzleLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,10 @@
 				67DD7D902BAC9ED40032F1E8 /* SceneDelegate.swift */,
 				67DD7D922BAC9ED40032F1E8 /* ViewController.swift */,
 				67DD7D942BAC9ED40032F1E8 /* Main.storyboard */,
-				67DD7D972BAC9ED50032F1E8 /* Assets.xcassets */,
+				67DD7DC02BACC4940032F1E8 /* PuzzleLogic.swift */,
 				67DD7D992BAC9ED50032F1E8 /* LaunchScreen.storyboard */,
 				67DD7D9C2BAC9ED50032F1E8 /* Info.plist */,
+				67DD7DC22BACEF060032F1E8 /* assets */,
 			);
 			path = Ind02_Chirudeep_Tupakula;
 			sourceTree = "<group>";
@@ -125,6 +126,13 @@
 				67DD7DB12BAC9ED50032F1E8 /* Ind02_Chirudeep_TupakulaUITestsLaunchTests.swift */,
 			);
 			path = Ind02_Chirudeep_TupakulaUITests;
+			sourceTree = "<group>";
+		};
+		67DD7DC22BACEF060032F1E8 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67DD7D982BAC9ED50032F1E8 /* Assets.xcassets in Resources */,
 				67DD7D9B2BAC9ED50032F1E8 /* Base in Resources */,
 				67DD7D962BAC9ED40032F1E8 /* Base in Resources */,
 			);
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67DD7DC12BACC4940032F1E8 /* PuzzleLogic.swift in Sources */,
 				67DD7D932BAC9ED40032F1E8 /* ViewController.swift in Sources */,
 				67DD7D8F2BAC9ED40032F1E8 /* AppDelegate.swift in Sources */,
 				67DD7D912BAC9ED40032F1E8 /* SceneDelegate.swift in Sources */,
